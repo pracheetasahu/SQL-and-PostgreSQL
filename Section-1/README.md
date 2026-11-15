@@ -1,47 +1,29 @@
-# Section 1 – Database Design and Implementation
+# Section 1 – SQL and PostgreSQL
 
-## Overview
+## Exercises Completed
 
-This section focuses on designing and implementing a relational database using PostgreSQL. It includes database schema design, table creation, primary and foreign key constraints, indexing, and data management using SQL.
+### 1. Create, Insert, and Select
+- Created a `movies` table.
+- Inserted movie records using `INSERT INTO`.
+- Retrieved records using `SELECT`.
+- Selected specific columns using `FROM`.
 
-## Project Deliverables
+### 2. Calculated Columns
+- Retrieved phone names from the `phones` table.
+- Calculated total revenue using `price * units_sold`.
+- Renamed the calculated column using `AS revenue`.
 
-### 1. Database Design – `solution.dbml`
-- Database schema designed using dbdiagram.io.
-- Tables and their attributes.
-- Primary key definitions.
-- Foreign key relationships.
-- Relationships between database entities.
+### 3. Practicing WHERE Statements
+- Retrieved phone names and prices.
+- Filtered records using the `WHERE` clause.
+- Applied the condition `units_sold > 5000`.
 
-### 2. SQL Schema – `schema.sql`
-- CREATE TABLE statements for all tables.
-- Primary key constraints.
-- Foreign key constraints.
-- NOT NULL constraints.
-- Indexes on foreign keys and frequently queried columns.
-- SQL script compatible with a fresh PostgreSQL database.
-
-### 3. Data Records – `data/records.csv`
-- CSV file containing records for database tables.
-- Data prepared for insertion into the respective tables.
-- Structured records for database population and testing.
-
-## Technologies Used
-
-- PostgreSQL
-- SQL
-- dbdiagram.io
-- GitHub
-- CSV
-
-## Database Implementation
-
-The database implementation follows these steps:
-
-1. Identify the entities and attributes.
-2. Design the database schema.
-3. Define primary keys and foreign key relationships.
-4. Implement tables using PostgreSQL.
-5. Apply NOT NULL constraints and indexes.
-6. Prepare CSV records for data insertion.
-7. Execute and validate the SQL schema.
+## Concepts Practised
+- CREATE TABLE
+- INSERT INTO
+- SELECT
+- FROM
+- Calculated Columns
+- Column Aliases (AS)
+- WHERE
+- Comparison Operators
