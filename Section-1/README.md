@@ -13,11 +13,6 @@
 - Calculated total revenue using `price * units_sold`.
 - Renamed the calculated column using `AS revenue`.
 
-### 3. Practicing WHERE Statements
-- Retrieved phone names and prices.
-- Filtered records using the `WHERE` clause.
-- Applied the condition `units_sold > 5000`.
-
 ## Concepts Practised
 - CREATE TABLE
 - INSERT INTO
